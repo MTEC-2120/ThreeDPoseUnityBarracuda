@@ -156,6 +156,13 @@ MonoBehaviour:
   - {fileID: 1709603509}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &66540209 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 16f380d52d0b4364998ca87162d7aedf,
@@ -294,6 +301,13 @@ MonoBehaviour:
   - {fileID: 2074468645}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &213079810 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315583862500798431, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -445,6 +459,13 @@ MonoBehaviour:
   - {fileID: 1924533789}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!4 &269722711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315583863143700800, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -486,6 +507,13 @@ MonoBehaviour:
   - {fileID: 2078834067}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &288215484 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315583863143335162, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -521,6 +549,13 @@ MonoBehaviour:
   - {fileID: 434687450}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!4 &304977038 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315583863143700700, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -562,6 +597,13 @@ MonoBehaviour:
   - {fileID: 518673796}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &338212910 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315583863143335264, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -591,6 +633,13 @@ MonoBehaviour:
   - {fileID: 1709603509}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &434687448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,10 +1123,8 @@ MonoBehaviour:
   dynamicRatio: 1
   stiffnessForce: 4
   stiffnessCurve:
-    serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
-      time: -0.5163765
+    - time: -0.5163765
       value: 0.021694183
       inSlope: -0.00031727442
       outSlope: -0.00031727442
@@ -1085,8 +1132,7 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.9624939
+    - time: 0.9624939
       value: 0.021224976
       inSlope: -0.00031727442
       outSlope: -0.00031727442
@@ -1099,10 +1145,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   dragForce: 1
   dragCurve:
-    serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
-      time: 0
+    - time: 0
       value: 0
       inSlope: 2
       outSlope: 2
@@ -1110,8 +1154,7 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0
-    - serializedVersion: 3
-      time: 1
+    - time: 1
       value: 1
       inSlope: 0
       outSlope: 0
@@ -1156,10 +1199,8 @@ MonoBehaviour:
   dynamicRatio: 1
   stiffnessForce: 0.3
   stiffnessCurve:
-    serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
-      time: 0
+    - time: 0
       value: 1
       inSlope: 0
       outSlope: 0
@@ -1167,8 +1208,7 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0
-    - serializedVersion: 3
-      time: 1
+    - time: 1
       value: 1
       inSlope: 0
       outSlope: 0
@@ -1181,10 +1221,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   dragForce: 0.9
   dragCurve:
-    serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
-      time: 0
+    - time: 0
       value: 1
       inSlope: 0
       outSlope: 0
@@ -1192,8 +1230,7 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0
-    - serializedVersion: 3
-      time: 1
+    - time: 1
       value: 1
       inSlope: 0
       outSlope: 0
@@ -1307,6 +1344,13 @@ MonoBehaviour:
   - {fileID: 518673796}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &749554559 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315583863143335410, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -1355,6 +1399,13 @@ MonoBehaviour:
   - {fileID: 518673796}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &769284633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,6 +1549,13 @@ MonoBehaviour:
   - {fileID: 1709603509}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &874903609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,6 +1701,13 @@ MonoBehaviour:
   - {fileID: 2078834067}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!4 &970498030 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315583863143700880, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -1705,6 +1770,13 @@ MonoBehaviour:
   - {fileID: 434687450}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &1079493057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,6 +1905,13 @@ MonoBehaviour:
   - {fileID: 1924533789}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &1127486415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315583863143335134, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -1862,6 +1941,13 @@ MonoBehaviour:
   - {fileID: 434687450}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &1171456430 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7032258533655045440, guid: 14f97125094ea1141aad5ea1cd9961f8,
@@ -2172,6 +2258,13 @@ MonoBehaviour:
   - {fileID: 518673796}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!4 &1273177940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315583863143700740, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -2325,6 +2418,13 @@ MonoBehaviour:
   - {fileID: 434687450}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1001 &1392124583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3510,6 +3610,13 @@ MonoBehaviour:
   - {fileID: 1924533789}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &1638155250 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315583863143335250, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -3539,6 +3646,13 @@ MonoBehaviour:
   - {fileID: 2078834067}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!4 &1638282007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315583863143700848, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -3572,10 +3686,8 @@ MonoBehaviour:
   dynamicRatio: 0.7
   stiffnessForce: 0.3
   stiffnessCurve:
-    serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
-      time: 0.025001526
+    - time: 0.025001526
       value: 0.46934128
       inSlope: -0.1473597
       outSlope: -0.1473597
@@ -3583,8 +3695,7 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1.0333252
+    - time: 1.0333252
       value: 0.320755
       inSlope: -0.1473597
       outSlope: -0.1473597
@@ -3597,10 +3708,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   dragForce: 0.8
   dragCurve:
-    serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
-      time: -0.10833168
+    - time: -0.10833168
       value: 0.28302765
       inSlope: -0.26500273
       outSlope: -0.26500273
@@ -3608,8 +3717,7 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1.0041809
+    - time: 1.0041809
       value: -0.011791229
       inSlope: -0.26500273
       outSlope: -0.26500273
@@ -3751,6 +3859,13 @@ MonoBehaviour:
   - {fileID: 2078834067}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &1778880111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315583863143335150, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -3787,6 +3902,13 @@ MonoBehaviour:
   - {fileID: 1924533789}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &1799048009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 427d34d6970bfe74f99a26b6745ccbc5,
@@ -3851,6 +3973,13 @@ MonoBehaviour:
   - {fileID: 1924533789}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1001 &1852301381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3950,7 +4079,7 @@ MonoBehaviour:
   _layer:
     serializedVersion: 2
     m_Bits: 4
-  UseWebCam: 1
+  UseWebCam: 0
   WebCamIndex: 0
   VideoPlayer: {fileID: 769284634}
 --- !u!23 &1873549734
@@ -4132,6 +4261,13 @@ MonoBehaviour:
   - {fileID: 1924533789}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &1924533788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315583862592134229, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -4252,6 +4388,13 @@ MonoBehaviour:
   - {fileID: 1709603509}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &2017390462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315583863143335406, guid: 376f47ea3b23a0c4390f513d69e1ca66,
@@ -4292,6 +4435,13 @@ MonoBehaviour:
   - {fileID: 2074468645}
   debug: 1
   threshold: 0.01
+  springLength: 0
+  localRotation: {x: 0, y: 0, z: 0, w: 0}
+  trs: {fileID: 0}
+  currTipPos: {x: 0, y: 0, z: 0}
+  prevTipPos: {x: 0, y: 0, z: 0}
+  org: {fileID: 0}
+  managerRef: {fileID: 0}
 --- !u!1 &2074468643
 GameObject:
   m_ObjectHideFlags: 0
