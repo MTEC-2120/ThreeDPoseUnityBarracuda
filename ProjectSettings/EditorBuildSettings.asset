@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 5deb965500846b64ab123fdbbbc2de24
+    path: Assets/Scenes/UnityChanStageThreeDPose.unity
+    guid: 61f3ef975b9241441b28f0caeaa03eb7
   m_configObjects: {}
